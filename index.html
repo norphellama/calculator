@@ -69,6 +69,8 @@
                         display.value = lastResult / currentValue;
                         break;
                 }
+            }else{
+                display.value = eval(display.value);
             }
 
             lastOperation = '+';
